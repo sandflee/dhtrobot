@@ -1,1 +1,94 @@
-<mxfile host="www.draw.io" modified="2019-12-26T08:24:48.252Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" version="12.4.3" etag="jMu_kENitjclVExqXmTS" type="github" pages="1"><diagram id="F1P6FbKToi8cd_afCGQJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-30T01:45:12.868Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="oZW8QSZbjDNHztlBuBV8" version="12.4.3" type="github" pages="1">
+  <diagram id="F1P6FbKToi8cd_afCGQJ" name="Page-1">
+    <mxGraphModel dx="1106" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="490" height="370" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-2" value="RM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="180" width="500" height="370" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="270" width="130" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-5" value="Split" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="270" width="70" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-6" value="HistoryServer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="630" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-7" value="submit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="310" width="70" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-8" value="getHistory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="350" width="70" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-10" value="HDFS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-11" value="ClientService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="150" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-12" value="ResourceTrackerService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="150" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-13" value="RMScheduler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="335" width="150" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-14" value="EventQueue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="345" width="90" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-15" value="ApplicationMasterService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="470" width="150" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-16" value="SchedulerEventQueue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="400" width="130" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-17" value="ZKEventQueue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="280" width="90" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-18" value="AMLauncher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="465" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-19" value="NodeStatusUpdater" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="210" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-20" value="ContainerManagerImpl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="460" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-21" value="ResourceLocalizationService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="320" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-22" value="EventDispatcher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="312.5" width="120" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-23" value="Cgroup" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="380" width="120" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-24" value="LeveldbStateStore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="235" width="120" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-25" value="&lt;font style=&quot;font-size: 24px&quot;&gt;ZK&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="60" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-26" value="ApplicationMaster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="640" width="200" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-27" value="MapTask" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="650" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-28" value="ReduceTask" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="750" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="VqAF8yNHhsc02I0ETw_A-29" value="Shuffle服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="460" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
