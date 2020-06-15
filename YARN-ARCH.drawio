@@ -1,1 +1,52 @@
-<mxfile modified="2019-08-23T11:53:44.747Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="01IHWoElYYvwHaN_gx-B" version="11.1.4" type="github"><diagram id="bI38N7NOpBmas-9nv6wI" name="Page-1">3ZjbcpswEIafZi/bsRAH6RIwxGmTODVOml4SoximGHlkHDt9+gojnyIySdsYMr3xLL/OHz/rBcD+bH0m4nl6yROWg9FL1oD7YBjUtOVvJTzVgmU7tTAVWVJLaC9E2S+mxJ5Sl1nCFkcdS87zMpsfixNeFGxSHmmxEHx13O2B58erzuMp04RoEue6+j1LyrRWieHs9QHLpul2ZWTTumUWbzurkyzSOOGrAwkHgH3BeVlHs7XP8ordlks9LnyhdbcxwYryLQMG7Da5Cb6MR3c32fAmiMKHpf9JzfIY50t14EE/jCAIwfOBhAPPjQK1/fJpy0TwZZGwatoeYG+VZiWL5vGkal1JE0gtLWe5vEIyfMjy3Oc5F5uxOLEYSUypL0rBf7KDFmLcY9uWLWpLTJRs/eJZ0Y6gdB7jM1aKJ9llO8BS0JXr8PZ6tb+HJlFaenD/bKXFyjbT3dR7sjJQcP8AtKGB/uGOrv4DtAbpGi3W0F6O/g3sO2DaPfYKE3IaMDVQQr1TYTI1TOHF+dXXzkk9N1QTKatVUpZGKrp2R92TwuQNpKw2SdkaqbsLFosiK6ad0zLNZ4kK67QQbTCWeSpajkZrzIoFF2Eu64KPhqvJXE6btIie1q/PO8dk/WVePxkmqj+CZ95wGI27R+W8jspuExXSq12V2O1cru3dCxlNqyj6dtE5PsOmn63X8z1qM98jvYyFwATPBepC4ABFQEMIbKB+JQYWUAouqQKPgoergMh3i17ndLX/UkNn21h2nM6deh07yB5Z56S0SraBFGqXlF7KQkCB9oHKgAB1wDU3vuxXRqwCsjGoDUR2I5VT3QBc9AF9qVXDDbTbTZp6NXw9CqLxsHNUGPfekCDf6yVLXu6/1WzaDj544eA3</diagram></mxfile>
+<mxfile modified="2020-06-15T06:31:08.827Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="gBiwVtRbXOrYnZbj_Ye4" version="13.1.5" type="github">
+  <diagram id="bI38N7NOpBmas-9nv6wI" name="Page-1">
+    <mxGraphModel dx="946" dy="477" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HeVdUEJTRXUiOUESFfuC-1" value="HDFS／HBASE存储层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="150" y="350" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HeVdUEJTRXUiOUESFfuC-2" value="YARN资源调度层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="150" y="280" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HeVdUEJTRXUiOUESFfuC-3" value="MR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="220" y="170" width="40" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HeVdUEJTRXUiOUESFfuC-4" value="FLINK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="150" y="170" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HeVdUEJTRXUiOUESFfuC-5" value="SPARK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="380" y="170" width="55" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HeVdUEJTRXUiOUESFfuC-6" value="XLearning机器学习框架调度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="440" y="230" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HeVdUEJTRXUiOUESFfuC-7" value="TensorFlow" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="440" y="170" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HeVdUEJTRXUiOUESFfuC-8" value="MPI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="520" y="170" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HeVdUEJTRXUiOUESFfuC-9" value="XGBOOST" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="570" y="170" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HeVdUEJTRXUiOUESFfuC-11" value="SPARK&lt;br&gt;SQL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="269.5" y="170" width="51" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HeVdUEJTRXUiOUESFfuC-12" value="亚瑟机器平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="380" y="120" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HeVdUEJTRXUiOUESFfuC-13" value="Hive" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="220" y="120" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HeVdUEJTRXUiOUESFfuC-14" value="青藤作业托管平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="150" y="120" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HeVdUEJTRXUiOUESFfuC-15" value="PRESTO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="330.5" y="170" width="40" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
